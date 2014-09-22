@@ -9,7 +9,7 @@ name: Grace Nolan
 description: Student from New Zealand
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar:{{ site.baseurl }}/images/me.jpg
+#avatar:{{ site.baseurl }}/images/me.jpg
 
 #
 # Flags below are optional
