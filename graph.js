@@ -27,6 +27,9 @@ function update() {
   force
       .nodes(nodes)
       .links(links)
+      .linkDistance(150)
+      .friction(0.4)
+      .charge(-1500)
       .start();
 
   // Update the links…
@@ -54,9 +57,9 @@ function update() {
       .attr("class", "node")
       .attr("cx", function(d) { return d.x; })
       .attr("cy", function(d) { return d.y; })
-      .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5; })
-      .style("fill", color)
-      .on("click", click)
+      .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 8.5; }) // 
+      .style("fill", function(d) { return d.color; })
+      .on("dblclick", function(d) { window.location.href = d.url; })
       .call(force.drag);
 }
 
@@ -70,6 +73,7 @@ function tick() {
       .attr("cy", function(d) { return d.y; });
 }
 
+//UNUSED FUNCTION
 // Color leaf nodes orange, and packages white or blue.
 function color(d) {
   return d._children ? "#3182bd" : d.children ? "#c6dbef" : "#fd8d3c";
