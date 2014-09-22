@@ -1,11 +1,12 @@
 {
-
-   "name": "links",
+   "name": "Me", "size": 45000, "color": "mediumpurple", "url": "http://gracenolan.me",
    "children": [
-      {"name": "Me", "size": 45000, "color": "mediumpurple", "url": "http://gracenolan.me"},
+      {"name": "Flickr", "size": 45000, "color": "orange", "url": "https://www.flickr.com/photos/i_am_queen_grace/"},
       {"name": "Github", "size": 68000, "color": "cadetblue", "url": "http://github.com/gracenolan"},
       {"name": "Email", "size": 97300, "color": "crimson", "url": "mailto: grace.m.nolan@gmail.com" },
-      {"name": "Facebook", "size": 35000, "color": "cornflowerblue", "url": "https://www.facebook.com/grace.nolan.73"}
+      {"name": "Facebook", "size": 35000, "color": "cornflowerblue", "url": "https://www.facebook.com/grace.nolan.73"},
+      {"name": "G+", "size": 35780, "color": "yellowgreen", "url": "https://plus.google.com/u/0/102446928940721796613/"}
+     
      ]
   }
 
