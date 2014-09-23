@@ -1,6 +1,6 @@
 
 var width = 800,
-    height = 500,
+    height = 400,
     root;
 
 var force = d3.layout.force()
@@ -8,11 +8,22 @@ var force = d3.layout.force()
     .on("tick", tick);
 
 var svg = d3.select("div#example").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+    .attr("id", "graph")
+    .attr("viewBox", "0 0 " + width + " " + height )
+    .attr("preserveAspectRatio", "xMidYMid meet");
+    // .attr("width", width)
+    // .attr("height", height)
 
 var link = svg.selectAll(".link"),
     node = svg.selectAll(".node");
+
+// function updateWindow(){
+//     width = w.innerWidth || e.clientWidth || g.clientWidth;
+//     height = w.innerHeight|| e.clientHeight|| g.clientHeight;
+    
+//     svg.attr("width", width).attr("height", height);
+// }
+// window.onresize = updateWindow; 
 
 d3.json("/flare.json", function(json) {
   root = json;
