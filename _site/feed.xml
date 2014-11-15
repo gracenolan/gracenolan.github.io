@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grace Nolan</title>
+    <description>Student from New Zealand</description>
+    <link>http://gracenolan.me</link>
+    <atom:link href="http://gracenolan.me/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>First page!</title>
+        <description>&lt;p&gt;This is a post&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 03 Mar 2014 00:00:00 +1300</pubDate>
+        <link>http://gracenolan.me/Hello-World/</link>
+        <guid isPermaLink="true">http://gracenolan.me/Hello-World/</guid>
+      </item>
+    
+  </channel>
+</rss>
