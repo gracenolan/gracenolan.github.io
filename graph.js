@@ -15,7 +15,10 @@ var svg = d3.select("div#example").append("svg")
     // .attr("height", height)
 
 var link = svg.selectAll(".link"),
-    node = svg.selectAll(".node");
+    node = svg.selectAll(".node").append("g"); 
+
+    // I want to make the node object a group.
+    // This will have a circle and icon
 
 // function updateWindow(){
 //     width = w.innerWidth || e.clientWidth || g.clientWidth;
@@ -64,14 +67,30 @@ function update() {
   node.exit().remove();
 
   // Enter any new nodes.
-  node.enter().append("circle")
+  var nodeEnter = node.enter().append("g")
       .attr("class", "node")
-      .attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; })
-      .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 8.5; }) // 
-      .style("fill", function(d) { return d.color; })
-      .on("dblclick", function(d) { window.location.href = d.url; })
+      .on("click", click)
       .call(force.drag);
+  
+  nodeEnter.append("circle") // append icon instead?
+      //.attr("cx", function(d) { return d.x; })
+      //.attr("cy", function(d) { return d.y; })
+      .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 8.5; }) // 
+      .on("dblclick", function(d) { window.location.href = d.url; })
+      //.call(force.drag);
+      
+      nodeEnter.append("text")
+      .attr('text-anchor', 'middle')
+          .attr('dominant-baseline', 'central')
+          .attr('font-family', 'FontAwesome')
+          .attr('font-size', function(d) { return Math.sqrt(d.size) / 8 || 6.5;})
+          .text(function(d) { return d.icon }); 
+        //.attr("dy", ".35em")
+        //.text(function(d) { return d.name; });
+        
+        node.select("circle")
+        .style("fill", function(d) { return d.color; })
+        
 }
 
 function tick() {
@@ -80,8 +99,10 @@ function tick() {
       .attr("x2", function(d) { return d.target.x; })
       .attr("y2", function(d) { return d.target.y; });
 
-  node.attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; });
+      node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+  
+  //node.attr("cx", function(d) { return d.x; })
+    //  .attr("cy", function(d) { return d.y; });
 }
 
 //UNUSED FUNCTION
