@@ -69,8 +69,7 @@ function update() {
   // Enter any new nodes.
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
-      .on("click", function(d) { window.location.href = d.url; })
-      //.on("click", click)
+      .on("dblclick", function(d) { window.location.href = d.url; })
       .call(force.drag);
   
   nodeEnter.append("circle") // append icon instead?
