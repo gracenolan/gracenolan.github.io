@@ -23,10 +23,10 @@ var link = svg.selectAll(".link"),
 // function updateWindow(){
 //     width = w.innerWidth || e.clientWidth || g.clientWidth;
 //     height = w.innerHeight|| e.clientHeight|| g.clientHeight;
-    
+//
 //     svg.attr("width", width).attr("height", height);
 // }
-// window.onresize = updateWindow; 
+// window.onresize = updateWindow;
 
 d3.json("/flare.json", function(json) {
   root = json;
@@ -69,32 +69,27 @@ function update() {
   // Enter any new nodes.
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
-      .on("dblclick", function(d) { window.location.href = d.url; })
+      .on("mouseover", function() { d3.select(this).style("opacity", "0.9"); })
+      .on("mouseout", function() {  d3.select(this).style("opacity", "1"); })
+      .on("click", click)
       .call(force.drag);
   
   nodeEnter.append("circle") // append icon instead?
-      //.attr("cx", function(d) { return d.x; })
-      //.attr("cy", function(d) { return d.y; })
-      .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 8.5; }) // 
-      
-      //.call(force.drag); "dblclick"
-      
-      nodeEnter.append("text")
-      .attr('text-anchor', 'middle')
-          .attr('dominant-baseline', 'central')
-          .attr('font-family', 'FontAwesome')
-          .attr('font-size', function(d) { return Math.sqrt(d.size) / 8 || 6.5;})
-          .text(function(d) { return d.icon })
-          .style('fill', '#fff');
-        //.attr("dy", ".35em")
-        //.text(function(d) { return d.name; });
-        
-        node.select("circle")
+      .attr("r", function(d) { return Math.sqrt(d.size) / 9 || 7; }) // 
+            
+  nodeEnter.append("text")
+  .attr('text-anchor', 'middle')
+      .attr('dominant-baseline', 'central')
+      .attr('font-family', 'FontAwesome')
+      .attr('font-size', function(d) { return Math.sqrt(d.size) / 8 || 6.5;})
+      .text(function(d) { return d.icon })
+      .style('fill', '#fff');
+    //.attr("dy", ".35em")
+    //.text(function(d) { return d.name; });
+    
+    node.select("circle")
         .style("fill", function(d) { return d.color; })
-        
-        
-        
-        
+   
 }
 
 function tick() {
@@ -104,9 +99,6 @@ function tick() {
       .attr("y2", function(d) { return d.target.y; });
 
       node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-  
-  //node.attr("cx", function(d) { return d.x; })
-    //  .attr("cy", function(d) { return d.y; });
 }
 
 //UNUSED FUNCTION
@@ -117,16 +109,9 @@ function color(d) {
 
 // Toggle children on click.
 function click(d) {
-  // if (!d3.event.defaultPrevented) {
-  //   if (d.children) {
-  //     d._children = d.children;
-  //     d.children = null;
-  //   } else {
-  //     d.children = d._children;
-  //     d._children = null;
-  //   }
-  //   update();
-  // }
+  if (!d3.event.defaultPrevented) {
+      window.location.href = d.url;
+  }
 }
 
 // Returns a list of all nodes under the root.

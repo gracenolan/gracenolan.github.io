@@ -14,16 +14,18 @@ layout: index
 <style>
 
 #gracenolan{
-  position: absolute;
-  font-family: 'Open Sans Condensed', sans-serif;  
+  position: relative;
+font-family: 'Open Sans Condensed', sans-serif;  
+  /*font-family:"Helvetica Neue", Helvetica, LiberationSans, Arial, sans-serif; */
   font-size: 8em;
   color: #ECECEC;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  overflow: hidden;
+  position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index: -1;
+     overflow: hidden;
 }
 
 .node {
@@ -32,20 +34,28 @@ layout: index
   stroke-width: 1.5px;
 }
 
+
 .link {
   fill: none;
   stroke: #DCDCDC;
   stroke-width: 1.5px;
 }
+
 #graph {
   display: block; 
-  width: 80%; 
+  width: 100%; 
   margin: 0 auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 .fa{
     color: #fff;
     stroke: none;
 }
+
 
 </style>
 
