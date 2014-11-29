@@ -1,12 +1,13 @@
 {
-   "name": "Me", "size": 45000, "color": "mediumpurple", "url": "http://gracenolan.me",
+   "name": "Me", "size": 65005, "color": "#B892C2", "icon": "\uf007", "url": "http://gracenolan.me",
    "children": [ 
-      {"name": "Flickr", "size": 45000, "color": "orange", "icon": "\uf16e", "url": "https://www.flickr.com/photos/i_am_queen_grace/"},
-      {"name": "Github", "size": 68000, "color": "cadetblue", "icon": "\uf113","url": "http://github.com/gracenolan"},
-      {"name": "Email", "size": 97300, "color": "#3E82F7", "icon": "\uf1fa", "url": "mailto: grace.m.nolan@gmail.com" },
-      {"name": "Facebook", "size": 35000, "color": "cornflowerblue", "icon": "\uf09a", "url": "https://www.facebook.com/grace.nolan.73"},
-      {"name": "G+", "size": 35780, "color": "yellowgreen", "icon": "\uf0d5", "url": "https://plus.google.com/u/0/102446928940721796613/"},
-      {"name": "YouTube", "size": 50300, "color": "#D92119", "icon": "\uf167", "url": "https://www.youtube.com/user/QueenGraceFace/videos" }
+      {"name": "Flickr", "size": 62005, "color": "#B892C2", "icon": "\uf16e", "url": "https://www.flickr.com/photos/i_am_queen_grace/"},
+      {"name": "Github", "size": 88005, "color": "#B892C2", "icon": "\uf113","url": "http://github.com/gracenolan"},
+      {"name": "Email", "size": 67305, "color": "#B892C2", "icon": "\uf003", "url": "mailto: grace.m.nolan@gmail.com" },
+      {"name": "Facebook", "size": 75005, "color": "#4ABABF", "icon": "\uf09a", "url": "https://www.facebook.com/grace.nolan.73"},
+      {"name": "G+", "size": 109785, "color": "#4ABABF", "icon": "\uf0d5", "url": "https://plus.google.com/u/0/102446928940721796613/"},
+      {"name": "Steam", "size": 55785, "color": "#4ABABF", "icon": "\uf1b6", "url": "http://steamcommunity.com/id/gracenolan"},
+      {"name": "YouTube", "size": 70305, "color": "#4ABABF", "icon": "\uf167", "url": "https://www.youtube.com/user/QueenGraceFace/videos" },
+      {"name": "Linkedin", "size": 54305, "color": "#B892C2", "icon": "\uf0e1", "url": "https://www.linkedin.com/pub/grace-nolan/2a/253/1a7" }
      ]
   }
-

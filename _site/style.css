@@ -66,20 +66,19 @@ html {
 body {
   background: #fff;
   font: 18px/1.4 Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #8F8F8F;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 880px;
   padding: 0 10px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
-  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #8F8F8F;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -91,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 3em;
 }
 h1 a {
   color: inherit;
@@ -107,7 +106,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #666;
+  color: #8F8F8F;
 }
 
 p {
@@ -120,7 +119,7 @@ a {
   cursor: pointer;
 }
 a:hover, a:active {
-  color: #4183C4;
+  color: #B991C3;
 }
 
 ul, ol {
@@ -158,7 +157,7 @@ img {
 
 .date {
   font-style: italic;
-  color: #666;
+  color: #8F8F8F;
 }
 
 ::-moz-selection {
@@ -228,17 +227,18 @@ img {
 
 .site-name {
   margin: 0;
-  color: #333;
+  color: #ECECEC;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 5em;
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #666;
+  color: #8F8F8F;
   font-size: 16px;
 }
 @media screen and (max-width: 640px) {
@@ -263,7 +263,7 @@ nav {
 }
 nav a {
   margin-left: 20px;
-  color: #333;
+  color: #4C4848;
   text-align: right;
   font-weight: 300;
   letter-spacing: 1px;
@@ -273,6 +273,17 @@ nav a {
     margin: 0 10px;
     color: #4183C4;
   }
+}
+
+.en {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #4C4848;
+}
+.en p {
+  margin-top: 0em;
+  margin-bottom: 2em;
 }
 
 .posts > .post {
@@ -287,18 +298,21 @@ nav a {
 
 .post blockquote {
   margin: 1.8em .8em;
-  border-left: 2px solid #666;
+  border-left: 2px solid #8F8F8F;
   padding: 0.1em 1em;
-  color: #666;
+  color: #8F8F8F;
   font-size: 22px;
   font-style: italic;
 }
-.post .comments {
+
+.comments {
   margin-top: 10px;
 }
-.post .read-more {
-  text-transform: uppercase;
-  font-size: 15px;
+
+.read-more {
+  font-family: "Lora", serif;
+  font-style: italic;
+  color: #8F8F8F;
 }
 
 .wrapper-footer {
@@ -317,7 +331,7 @@ footer {
 /* SYNTAX HIGHLIGHTING */
 /***********************/
 .highlight {
-  background-color: #222;
+  background-color: #333;
   padding: 5px 10px;
   margin: 20px 0;
 }

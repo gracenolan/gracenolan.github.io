@@ -20,20 +20,20 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $gray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 880px;
   padding: 0 10px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+  font-family: $openSans;
+  color: $gray;
+  //font-weight: bold;
   
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 h1 {  
-  font-size: 30px;
+  font-size: 3em;
   a {
     color: inherit;
   }
@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $lilac;
   }
 }
 
@@ -187,12 +187,13 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #ECECEC;
   cursor: pointer;
-  font-family: $helveticaNeue; 
+  font-family: $openSans, $helveticaNeue; 
   font-weight: 300;
-  font-size: 28px;
+  font-size: 5em;
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 .site-description {
@@ -236,6 +237,18 @@ nav {
 // .main
 //
 
+.en{
+  font-family: $lora;
+  font-size: 24px;
+  line-height: 1.5;
+  color: $darkGray;
+
+  p{
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -255,16 +268,18 @@ nav {
     font-size: 22px;
     font-style: italic;
   }
+}
 
   .comments {
     margin-top: 10px;
   }
 
   .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
+    font-family: $lora;
+    font-style: italic;
+    color: $gray;
 }
+
 
 .wrapper-footer {
   margin-top: 50px;

@@ -1,0 +1,26 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">    
+      
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="sample">
+      	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
+        	{{ post.content | truncatewords:40}}
+        </a>
+      </div>
+<!-- calculate read time. 275 wpm + 5 sec for each image. could be stored in the post -->
+
+    </article>
+  {% endfor %}
+</div>
+
+
+<!--<i class="fa fa-chevron-down"></i>
+<i class="fa fa-plus-circle"></i>-->
