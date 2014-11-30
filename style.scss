@@ -193,7 +193,8 @@ img {
   font-weight: 300;
   font-size: 5em;
   letter-spacing: 1px;
-  line-height: 1.5;
+  line-height: 1;
+  margin-top: 20px;
 }
 
 .site-description {
@@ -208,10 +209,10 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue; 
-  font-size: 18px;
-  
+  margin-top: 80px; // @TODO: Vertically middle align
+  font-family: $openSans; 
+  font-size: 20px;
+
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -221,14 +222,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $gray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $lilac;
     }
   }
 }
@@ -278,6 +279,12 @@ nav {
     font-family: $lora;
     font-style: italic;
     color: $gray;
+}
+
+  .time-to-read{
+    color: $lightGray;
+    font-family: $openSans;
+    font-size: 60%;
 }
 
 
