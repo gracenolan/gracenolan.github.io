@@ -1,5 +1,5 @@
 {
-   "name": "Me", "size": 65005, "color": "#B892C2", "icon": "\uf007", "url": "http://gracenolan.me",
+   "name": "Blog", "size": 65005, "color": "#B892C2", "icon": "\uf007", "url": "http://gracenolan.me/blog/",
    "children": [ 
       {"name": "Flickr", "size": 62005, "color": "#B892C2", "icon": "\uf16e", "url": "https://www.flickr.com/photos/i_am_queen_grace/"},
       {"name": "Github", "size": 88005, "color": "#B892C2", "icon": "\uf113","url": "http://github.com/gracenolan"},
