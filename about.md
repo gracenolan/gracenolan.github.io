@@ -4,11 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
+### Hello!
 
-I don't have that much information right now unfortunately...
+I will put some real information here real soon I promise!
 
 ### Contact me
 
