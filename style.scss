@@ -238,16 +238,32 @@ nav {
 // .main
 //
 
-.en{
+.entry{
   font-family: $lora;
   font-size: 24px;
   line-height: 1.5;
   color: $darkGray;
 
   p{
-  margin-top: 0em;
-  margin-bottom: 2em;
+    margin-top: 0em;
+    margin-bottom: 2em;
+  }
 }
+
+.sample{
+
+  h1{
+    font-family: $openSans;
+    font-size: 2.5em;
+  }
+  .read-more {
+    font-family: $lora;
+    font-style: italic;
+    font-size: 16px;
+    color: $gray;
+    margin-bottom: 1em;
+}
+
 }
 
 .posts > .post {
@@ -274,12 +290,6 @@ nav {
   .comments {
     margin-top: 10px;
   }
-
-  .read-more {
-    font-family: $lora;
-    font-style: italic;
-    color: $gray;
-}
 
   .time-to-read{
     color: $teal;
