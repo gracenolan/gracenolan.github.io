@@ -11,7 +11,7 @@ Or I could compromise. If I am having a bit of quiet time, I can blog about past
 
 My writing style is more like a diary than formal, how-to articles. I hope that by adding this personal touch, my posts will be more interesting for you as well as me.
 
-Here's that list of things that I promised. It is of the things I am thinking of writing about:
+Here's that list of things that I promised:
 
 - The creation of the Computer Science Student Society at Waikato Uni
 - Learning Android for location aware music application (and working with shitty research software) 
