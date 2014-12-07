@@ -12,15 +12,16 @@ Or I could compromise. If I am having a bit of quiet time, I can blog about past
 My writing style is more like a diary than formal, how-to articles. I hope that by adding this personal touch, my posts will be more interesting for you as well as me.
 
 Here's that list of things that I promised. It is of the things I am thinking of writing about:
- - The creation of the Computer Science Student Society at Waikato Uni
- - Learning Android for location aware music application (and working with shitty research software) 
- - Anita Borg retreat in Sydney and a reflection on being a women in tech
- - Planning the upcoming Computer Science outreach programme at University of Waikato
- - Working remotely over the summer
- - CommTECH camp in Indonesia
- - Learning flask, data science and making information meaningful
- - Working on a helpdesk and interesting things that happen when doing tech support
 
-If you are reading this blog and there is something from this list you would like to read sooner rather than later, feel free to flick me an email.
+- The creation of the Computer Science Student Society at Waikato Uni
+- Learning Android for location aware music application (and working with shitty research software) 
+- Anita Borg retreat in Sydney and a reflection on being a women in tech
+- Planning the upcoming Computer Science outreach programme at University of Waikato
+- Working remotely over the summer
+- CommTECH camp in Indonesia
+- Learning flask, data science and making information meaningful
+- Working on a helpdesk and interesting things that happen when doing tech support
+
+If you are reading this blog and there is something from this list you would like to read sooner rather than later, feel free to leave a comment or [email me](mailto:grace.m.nolan@gmail.com).
 
 Thanks for reading!

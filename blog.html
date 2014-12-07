@@ -6,14 +6,14 @@ permalink: /blog/
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">    
+    <article class="sample">    
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a>
       <span class="time-to-read">{{ post.content | number_of_words | divided_by: 50 | append: 'min read' }}
 </span></h1>
 
 
-      <div class="sample">
+      <div class="subtext">
       	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
         	{{ post.content | truncatewords:40}}
         </a>
