@@ -1,13 +1,15 @@
 {
    "name": "Blog", "size": 65005, "color": "#B892C2", "icon": "\uf007", "url": "http://gracenolan.me/blog/",
    "children": [ 
-      {"name": "Flickr", "size": 62005, "color": "#B892C2", "icon": "\uf16e", "url": "https://www.flickr.com/photos/i_am_queen_grace/"},
+      {"name": "Flickr", "size": 47005, "color": "#B892C2", "icon": "\uf16e", "url": "https://www.flickr.com/photos/i_am_queen_grace/"},
       {"name": "Github", "size": 88005, "color": "#B892C2", "icon": "\uf113","url": "http://github.com/gracenolan"},
       {"name": "Email", "size": 67305, "color": "#B892C2", "icon": "\uf003", "url": "mailto:grace.m.nolan@gmail.com" },
       {"name": "Facebook", "size": 75005, "color": "#4ABABF", "icon": "\uf09a", "url": "https://www.facebook.com/grace.nolan.73"},
-      {"name": "G+", "size": 109785, "color": "#4ABABF", "icon": "\uf0d5", "url": "https://plus.google.com/u/0/102446928940721796613/"},
+      {"name": "Goodreads", "size": 65305, "color": "#B892C2", "icon": "\uf02d", "url": "https://www.goodreads.com/user/show/34757553-grace-nolan" },
+      {"name": "Google Plus", "size": 109785, "color": "#4ABABF", "icon": "\uf0d5", "url": "https://plus.google.com/u/0/102446928940721796613/"},
       {"name": "Steam", "size": 55785, "color": "#4ABABF", "icon": "\uf1b6", "url": "http://steamcommunity.com/id/gracenolan"},
       {"name": "YouTube", "size": 70305, "color": "#4ABABF", "icon": "\uf167", "url": "https://www.youtube.com/user/QueenGraceFace/videos" },
+      {"name": "About Me", "size": 50305, "color": "#4ABABF", "icon": "\uf129", "url": "http://gracenolan.me/about" },
       {"name": "Linkedin", "size": 54305, "color": "#B892C2", "icon": "\uf0e1", "url": "https://www.linkedin.com/pub/grace-nolan/2a/253/1a7" }
      ]
   }
