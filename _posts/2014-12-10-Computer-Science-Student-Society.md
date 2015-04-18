@@ -1,6 +1,10 @@
-Culture in Computer Science at University of Waikato. 
-
+---
+layout: post
 Title: Before I entered computer science I was confident with computers.
+published: false
+---
+
+Culture in Computer Science at University of Waikato. 
 
 I was strolling down a wide path that was mottled with tree-shadows. listening to the the , I took in the lawn, ciccadas hum, trees, tall builsings. I had just left the recruiter's office. We had talked about starting my career in computer science. I was excited about learning more about how computers worked and having the tools to carve a fulfilling and challenging career. The enrolment office assured me that prior programming knowledge was not a prerequisite, so, I dived right in.
 
