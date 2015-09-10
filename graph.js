@@ -21,8 +21,8 @@ var link = svg.selectAll(".link"),
     // This will have a circle and icon
 
 function updateWindow(){
-    width = window.screen.availWidth;
-    height = window.screen.availHeight;
+    width = w.innerWidth || e.clientWidth || g.clientWidth;
+    height = w.innerHeight|| e.clientHeight|| g.clientHeight;
 
     svg.attr("width", width).attr("height", height);
 }
