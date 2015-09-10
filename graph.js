@@ -20,13 +20,13 @@ var link = svg.selectAll(".link"),
     // I want to make the node object a group.
     // This will have a circle and icon
 
-// function updateWindow(){
-//     width = w.innerWidth || e.clientWidth || g.clientWidth;
-//     height = w.innerHeight|| e.clientHeight|| g.clientHeight;
-//
-//     svg.attr("width", width).attr("height", height);
-// }
-// window.onresize = updateWindow;
+function updateWindow(){
+    width = window.screen.availWidth;
+    height = window.screen.availHeight;
+
+    svg.attr("width", width).attr("height", height);
+}
+window.onresize = updateWindow;
 
 d3.json("/flare.json", function(json) {
   root = json;
