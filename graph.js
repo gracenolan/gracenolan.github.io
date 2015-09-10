@@ -20,6 +20,8 @@ var link = svg.selectAll(".link"),
     // I want to make the node object a group.
     // This will have a circle and icon
 
+
+// this doesn't work. In future, look here http://stackoverflow.com/questions/16265123/resize-svg-when-window-is-resized-in-d3-js
 function updateWindow(){
     width = w.innerWidth || e.clientWidth || g.clientWidth;
     height = w.innerHeight|| e.clientHeight|| g.clientHeight;
