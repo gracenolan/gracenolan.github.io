@@ -1,6 +1,6 @@
 
-var width = 800,
-    height = 500,
+var width = window.screen.availWidth,
+    height = window.screen.availHeight,
     root;
 
 var force = d3.layout.force()
