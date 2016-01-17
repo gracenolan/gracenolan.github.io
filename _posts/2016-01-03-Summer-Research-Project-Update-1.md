@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer Research Project Update #1
+title: Summer Research Project Update \#1
 ---
 
 Hello, this is my first update of my research! 
@@ -70,10 +70,6 @@ Tony McG looks at data of students/enrolments/grades. He will be sending me info
 
 The following graph is takes the number of graduates from BSc, BSc(TECH), BCMS, BCMS(HONS) doing computer science majors
 
-Screen Shot 2015-12-28 at 15.55.59.png
 ![Graduates from 2010 - 2015]({{ site.url }}/images/graduates.png)
 
 (Please note that I believe the number for 2015 is from mid-year graduations, and doesn't include the total for 2015)
-
-Kind regards,
-Grace Nolan
