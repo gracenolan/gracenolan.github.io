@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer Research Project Update \#1
+title: Summer Research Project Update #1
 ---
 
 Hello, this is my first update of my research! 
