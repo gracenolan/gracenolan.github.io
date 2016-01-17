@@ -69,8 +69,8 @@ function update() {
   // Enter any new nodes.
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
-      .on("mouseover", function() { d3.select(this).style("opacity", "0.9"); })
-      .on("mouseout", function() {  d3.select(this).style("opacity", "1"); })
+      .on("mouseover", function(d) { d3.select(this).style("opacity", "0.9").select('.hover').style("visibility", "visible"); })
+      .on("mouseout", function(d) {  d3.select(this).style("opacity", "1").select('.hover').style("visibility", "hidden"); })
       .on("click", click)
       .call(force.drag);
   
@@ -82,13 +82,21 @@ function update() {
       .attr('dominant-baseline', 'central')
       .attr('font-family', 'FontAwesome')
       .attr('font-size', function(d) { return Math.sqrt(d.size) / 8 || 6.5;})
-      .text(function(d) { return d.icon })
+      .text(function(d) { return d.icon})
       .style('fill', '#fff');
-    //.attr("dy", ".35em")
+    //.attr("dy", ".35em"
     //.text(function(d) { return d.name; });
+
+       nodeEnter.append("text")
+      .attr('class','hover')
+      .attr('baseline-shift','200%')
+      .text(function(d) { return d.name})
+      .style("visibility","hidden");
+      
     
     node.select("circle")
         .style("fill", function(d) { return d.color; })
+
    
 }
 

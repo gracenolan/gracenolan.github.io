@@ -7,26 +7,35 @@
     <atom:link href="http://gracenolan.me/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Second Post!</title>
-        <description>&lt;p&gt;Sit sane ista voluptas. Si quidem, inquit, tollerem, sed relinquo. Duo Reges: constructio interrete. Idemne potest esse dies saepius, qui semel fuit? Quae cum dixisset paulumque institisset, Quid est? Iam id ipsum absurdum, maximum malum neglegi.&lt;/p&gt;
+        <title>Introductions</title>
+        <description>&lt;p&gt;Hello! My name is Grace and I (currently) live in New Zealand. I am studying computer science at University of Waikato.&lt;/p&gt;
 
-&lt;p&gt;Qui est in parvis malis. Quo plebiscito decreta a senatu est consuli quaestio Cn. Commoda autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Negat enim summo bono afferre incrementum diem. &lt;/p&gt;
+&lt;p&gt;There are a bunch of things that I would like to blog about. I will make a short list in a moment. Something that I have been thinking about during the creation of this blog is what I am going to talk about and who my target audience will be. I have various projects that I am working on. Right now, I am trying to decide if I am going to focus on the backlogs, or start afresh from today.&lt;/p&gt;
 
-&lt;p&gt;Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Confecta res esset.&lt;/p&gt;
+&lt;p&gt;Or I could compromise. If I am having a bit of quiet time, I can blog about past projects. I will put the date of when I was working on that project so the projects show up in correct order…&lt;/p&gt;
+
+&lt;p&gt;My writing style is more like a diary than formal, how-to articles. I hope that by adding this personal touch, my posts will be more interesting for you as well as me.&lt;/p&gt;
+
+&lt;p&gt;Here’s that list of things that I promised. It is of the things I am thinking of writing about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The creation of the Computer Science Student Society at Waikato Uni&lt;/li&gt;
+  &lt;li&gt;Learning Android for location aware music application (and working with shitty research software) &lt;/li&gt;
+  &lt;li&gt;Anita Borg retreat in Sydney and a reflection on being a women in tech&lt;/li&gt;
+  &lt;li&gt;Planning the upcoming Computer Science outreach programme at University of Waikato&lt;/li&gt;
+  &lt;li&gt;Working remotely over the summer&lt;/li&gt;
+  &lt;li&gt;CommTECH camp in Indonesia&lt;/li&gt;
+  &lt;li&gt;Learning flask, data science and making information meaningful&lt;/li&gt;
+  &lt;li&gt;Working on a helpdesk and interesting things that happen when doing tech support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are reading this blog and there is something from this list you would like to read sooner rather than later, feel free to leave a comment or &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#103;&amp;#114;&amp;#097;&amp;#099;&amp;#101;&amp;#046;&amp;#109;&amp;#046;&amp;#110;&amp;#111;&amp;#108;&amp;#097;&amp;#110;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;email me&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
 </description>
-        <pubDate>Fri, 28 Nov 2014 00:00:00 +1300</pubDate>
-        <link>http://gracenolan.me/Second-Post/</link>
-        <guid isPermaLink="true">http://gracenolan.me/Second-Post/</guid>
-      </item>
-    
-      <item>
-        <title>First page!</title>
-        <description>&lt;p&gt;This is a post&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 03 Mar 2014 00:00:00 +1300</pubDate>
-        <link>http://gracenolan.me/Hello-World/</link>
-        <guid isPermaLink="true">http://gracenolan.me/Hello-World/</guid>
+        <pubDate>Sun, 07 Dec 2014 00:00:00 +1300</pubDate>
+        <link>http://gracenolan.me/Introductions/</link>
+        <guid isPermaLink="true">http://gracenolan.me/Introductions/</guid>
       </item>
     
   </channel>
