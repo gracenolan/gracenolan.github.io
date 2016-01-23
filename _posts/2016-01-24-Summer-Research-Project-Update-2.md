@@ -19,7 +19,7 @@ Here are some quick graphs of grade distributions from 2005, 2009 and 2015. The 
 
 This data is pulled from the database that tracks enrolments. The student declares their gender upon enrolment.I am unsure what UoW's plans are to be more inclusive of transgender and genderqueer people. 
 
-2015,2009,2005.jpg
+![Grade distribution for 2015, 2009, 2005]({{ site.url }}/images/2015,2009,2005.jpg)
 
 = My Thoughts = 
 Looking at this data, I am asking myself "How do I want to organise the data? Do I want to have a trend of number of students over the years? Do I even want to incorporate grades?" 
@@ -57,11 +57,11 @@ This is a way in which unconscious biases are naturally discussed.
 Here are some excerpts from Why are There so Few Female Computer Scientists? By Ellen Spertus (1991) 
 
 I found this quote interesting because the issue of gender bias starts very early in life: 
-why page 5.png
+![Gender bias starts early in life]({{ site.url }}/images/starts-early.png)
 
 I found this quote valuable because it is very direct about some of the problems when finding solutions. I don’t know that I like this quote but I think it’s something that I need to consider. It encourages me to be realistic and to resist getting caught up in idealism:
 
-Screen Shot 2016-01-23 at 18.19.34.png
+![Problem with solutions]({{ site.url }}/images/problem-w:-solution.png)
 
 ===
 
@@ -85,7 +85,7 @@ This event is about surfacing this idea that people have self doubt.
 Harvey Mudd pay careful attention to their course descriptions. 
 Here is a comparison of Harvey Mudd course descriptions and UoW course description:
 
-Screen Shot 2016-01-20 at 16.53.20.png
+![Comparison of course descriptions]({{ site.url }}/images/course-descriptions.png)
 Harvey Mudd has the descriptions for all their courses on the same page, and the descriptions are easy to find. They also go into some detail about what will be in the course. Unfortunately, UoW's descriptions are kept vague so they don't have to update it every time they change something about the course (or so I have been told this is the reason). 
 
 ==
