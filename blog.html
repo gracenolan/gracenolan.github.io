@@ -9,7 +9,9 @@ permalink: /blog/
     <article class="sample">    
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a>
-      <span class="time-to-read">{{ post.content | number_of_words | divided_by: 50 | append: 'min read' }}
+      <span class="time-to-read">
+        {{ post.content | number_of_words | divided_by: 230 | append: 'min read' }}
+        {{ if post.content | number_of_words | divided_by: 230 == 0 | append: '< 1min read' }}
 </span></h1>
 
 
