@@ -7,6 +7,268 @@
     <atom:link href="http://gracenolan.me/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Summer Research Project Update</title>
+        <description>&lt;p&gt;Hi all~&lt;/p&gt;
+
+&lt;p&gt;With the help of many people, I have collected over 100 articles/papers/research documents - Woo! I am currently triaging these and putting them into categories, vetoing the ones that aren’t relevant.&lt;br /&gt;
+In this update:
+* Some more data from UoW about students
+* My meeting with Melbourne University 
+* A couple of quotes I have found interesting and relevant to my research
+* Some thoughts on how I am doing my research: what I’m looking for; potential problems; and what my lens is. &lt;/p&gt;
+
+&lt;p&gt;==== UoW Data ====
+Tony McGregor has sent me the number of students and grades for male and female students from 2003 to 2015. &lt;/p&gt;
+
+&lt;p&gt;Here are some quick graphs of grade distributions from 2005, 2009 and 2015. The graphs on the left compare grade count across gender relatively, and the graphs on the right show the grade distributions with actual numbers of students. &lt;/p&gt;
+
+&lt;p&gt;This data is pulled from the database that tracks enrolments. The student declares their gender upon enrolment.I am unsure what UoW’s plans are to be more inclusive of transgender and genderqueer people. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://gracenolan.me/images/2015,2009,2005.jpg&quot; alt=&quot;Grade distribution for 2015, 2009, 2005&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;= My Thoughts = 
+Looking at this data, I am asking myself “How do I want to organise the data? Do I want to have a trend of number of students over the years? Do I even want to incorporate grades?” &lt;/p&gt;
+
+&lt;p&gt;My plan is to take the numbers of students (data from the right-side graphs) and look at the trend of numbers of students over the years. 
+Currently I am unsure how relevant the grade distribution is, I will probably include it in my report for interests sake and to clarify that there is no significant difference between men and women academically in this subject. This could dispel myths that women drop out of computer science because they find it too difficult.&lt;/p&gt;
+
+&lt;p&gt;The data is broken up into separate CSV files. I am thinking of writing a little python script to aggregate the data for me, but I am not sure if I should do that now, or later when I have done more reading? I am concerned that knowing the trends might bias my view of the research I read, on the other hand, it could help me to identify research that has been conducted in environments that reflect the same trends. &lt;/p&gt;
+
+&lt;p&gt;Advice please: should aggregate the data and look at trends now or later? At this stage I think I am going to do it later. &lt;/p&gt;
+
+&lt;p&gt;Side note: It would be really cool if I could get some data from other universities so we could all compare how we’re doing. Maybe Emma could talk to registrars from other universities and get this information? &lt;/p&gt;
+
+&lt;p&gt;==== Meeting with Melbourne University ====
+I had meeting with people from Melbourne University to talk about my research and to exchange some ideas on how to tackle the gender disparity in computer science. It was wonderful to talk to them and it was insightful to discussing challenges that come with being a bigger university. 
+Here are some of the highlights: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;They have an information event for undergraduate women who do not take computer science. This is very hands-on and seems to be a playful exploration of computer science and programming.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;They take a CS+X approach in their first year courses, including having guest lectures every two weeks from people in industry. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;They take part in a Victoria-state-wide program,Go Girl Go For IT, where students come to a university (usually held at Deakin University) and go to information sessions and learn about computer science. I believe it is their third year running this event. As this event is targeted at year 9 and 10 students they are yet to get concrete results. There is a lot of industry support for this event. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We discussed the importance of having computer science taught in schools.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It seemed like they were having difficulty getting access to information on their students and enrolments, particularly on which high school they come from, making it difficult to track progress from events.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We talked about gender balance in earlier computer science papers because of students taking them as electives (this may explain the high number of women in these courses, but it doesn’t explain why so few women continue on to further courses in the subject). At Melbourne University, 1/4 of a student’s subjects must be electives. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There is a private Facebook group for postgrads for emotional support. This is open to all genders and is a platform for discussing problems they be having and to seek support from their peers. An example was given: “The men in my lab go for lunch together and I am never invited.”
+This is a way in which unconscious biases are naturally discussed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;==== Quotes ====
+Here are some excerpts from Why are There so Few Female Computer Scientists? By Ellen Spertus (1991) &lt;/p&gt;
+
+&lt;p&gt;I found this quote interesting because the issue of gender bias starts very early in life: 
+&lt;img src=&quot;http://gracenolan.me/images/starts-early.png&quot; alt=&quot;Gender bias starts early in life&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I found this quote valuable because it is very direct about some of the problems when finding solutions. I don’t know that I like this quote but I think it’s something that I need to consider. It encourages me to be realistic and to resist getting caught up in idealism:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://gracenolan.me/images/problem-w:-solution.png&quot; alt=&quot;Problem with solutions&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;===&lt;/p&gt;
+
+&lt;p&gt;I watched this talk that is given by the president of Harvey Mudd College, Maria Klawe, in 2013. (Harvey Mudd has a gender distribution: 54 percent male, 46 percent female in computer science.)
+The second half of the talk focuses on the specific things that they have changed to become more welcoming to underrepresented groups. &lt;/p&gt;
+
+&lt;p&gt;Here are some of the ideas I liked: &lt;/p&gt;
+
+&lt;p&gt;= The Imposter Panel =
+This is an event for first years where they gather successful folks who are from underrepresented groups to talk about their experiences with imposter syndrome. “This is a common feeling, but even more so in underrepresented groups.”&lt;/p&gt;
+
+&lt;p&gt;Maria gave an example of a time when she was the ‘Presidential Imposter’ 
+Her slide had this information on it:
+I feel like an imposter when I…. “do something successful people do and women don’t often do”
+I have felt like an imposter when…. “I have supportive academic parents. They didn’t have a lot of money so I felt uncomfortable in a taxi or a hotel when I had to start doing these things as part of my career” 
+Tips for success/ how you cope with it “once you’ve been in a taxi a thousand times, it isn’t scary anymore”
+“Don’t let [imposter syndrome] stop you from moving forward, it will still be there, but don’t let it stop you. I like to remember when I was scared taking taxi’s.”
+This event is about surfacing this idea that people have self doubt. &lt;/p&gt;
+
+&lt;p&gt;= Course Descriptions =
+Harvey Mudd pay careful attention to their course descriptions. 
+Here is a comparison of Harvey Mudd course descriptions and UoW course description:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://gracenolan.me/images/course-descriptions.png&quot; alt=&quot;Comparison of course descriptions&quot; /&gt;
+Harvey Mudd has the descriptions for all their courses on the same page, and the descriptions are easy to find. They also go into some detail about what will be in the course. Unfortunately, UoW’s descriptions are kept vague so they don’t have to update it every time they change something about the course (or so I have been told this is the reason). &lt;/p&gt;
+
+&lt;p&gt;==&lt;/p&gt;
+
+&lt;p&gt;Maria said that they have been making efforts to reduce student “macho” behaviour, and that one of the “very effective” ways in which they have been doing this is by having a one-on-one discussion with the students that take up too much air time in class. &lt;/p&gt;
+
+&lt;p&gt;“The instructor have a private conversation with students like this outside of the classroom ‘I love having you in my class, it’s wonderful to have someone with so much passion and background and interest - and you know so much, you’re well prepared for this course. I’m sure you don’t understand that a lot of the other students in this course find it intimidating when you talk about these things - so if we can just have these conversations private, just the two of us” 
+- student says “oh, I had no idea”&lt;/p&gt;
+
+&lt;p&gt;I wish that people did this at my university! For me personally, I was greatly affected by this kind of student behaviour in my classes. &lt;/p&gt;
+
+&lt;p&gt;==&lt;/p&gt;
+
+&lt;p&gt;One of the problems with Harvey Mudd College and other American Universities, is that they have restrictions on the students they admit - they can simply allow 50 - 50 males - females into their computer science courses (they admit about 200 students each year). &lt;/p&gt;
+
+&lt;p&gt;Another factor is that their first year of university is about the equivalent of our final year of high school - this means there are certain papers that every first year student must take - including a computer science course. A fair amount of effort has been put in by Harvey Mudd College to make the computer science introductory course fun - so this means that students often continue taking computer science after having exposure to it. 
+The enrolment and course structure is very different at UoW.&lt;/p&gt;
+
+&lt;p&gt;==== How-to LitReview ====&lt;/p&gt;
+
+&lt;p&gt;I was sent a really good paper on how to do good literature reviews. I am reading through this as a guide to plan my research. Here are some of the notes I have made while reading this: &lt;/p&gt;
+
+&lt;p&gt;= Technology I am using =
+* Zotero for my digital library (with support from Google Scholar)
+* TextEdit for these updates
+* Google Drive for sharing collected data, report writing, and graph-making
+* Wunderlist to track what I need to do and things that I have done (it conveniently tracks my thought processes, as I often add todos that reflect my thinking)&lt;/p&gt;
+
+&lt;p&gt;Since I am looking through a lot of research, it is helpful to me if I can organise the papers I am reading. I am reluctant to print everything out and use piles and post-its. I was recommend to use Greenstone, software that is developed at my university for the purpose of building digital libraries. I struggled to get this working on my mac, so I tried using it in my windows virtual machine. It wasn’t obvious how the software should be used and it seemed like I had to manually enter in the meta data for my documents. This is a process that would take up a lot of my precious, limited time. &lt;/p&gt;
+
+&lt;p&gt;After having a Google, I am now using Zotero to categorise my data. Zotero seems very easy to use and works in a way that I expect. It uses Google Scholar to look up metadata for research documents and it indexes the content inside the document, making it easy to search. &lt;/p&gt;
+
+&lt;p&gt;= Where am I looking for research? =
+* Recommended research collected by friends and colleagues (who have more academic experience than me) 
+* Research recommended by the online Geek Feminism community and Systers mailing list
+* Google scholar for specific areas I wish to know more about 
+* ACM, and Engineering research databases 
+* I am also talking to people and finding out what their experience is &lt;/p&gt;
+
+&lt;p&gt;= What kind of research am I looking for? =
+* Recent - 2005-2015 - but will look at older research as environmental and societal changes, especially relating to marginalised groups, is slow moving&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Research conducted locally. Some criticism of current research by members of the department is that most of the research on my area of interest is conducted in the US and isn’t relevant to University of Waikato. I will address the relevance of each paper I wish to focus on in my review.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Research that contains recommendations. My aim at the end of this project is to have a list of recommendations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Research that applies to computer science, such as research on women in engineering and mathematics; and research on academic environments that are unfriendly to marginalised groups.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I will exclude research that doesn’t fit the goals of my summer research project, ie. it doesn’t lead to forming recommendations on what the university could do to help women in technology. The research needs to be influential to me. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;= Possible problems with my research project =
+* Lack of academic support from the university 
+* Little guidance on literature quality (I am trusting literature I am recommended)
+* Trying to do too much in a small amount of time
+* I let my frustrations at misogyny/unconscious bias (The Patriarchy) negatively affect my work (ie. make assumptions based on my personal experience)
+* Conflicts of interest because I’m involving so many people? &lt;/p&gt;
+
+&lt;p&gt;= My Lens =
+I am of English and Irish heritage and I grew up Hamilton New Zealand. I am studying a male-dominated and male-appraised field. I am independent, strong willed and uncompromising; I am not used to cultures where women are expected to take care of the home. My current ideas on the subject are shaped by my own experience and that of what I have read and discussed with people in the same position as me. I read Unlocking the Clubhouse by Jane Margolis and Allan Fisher early on when I was investigating why I felt uncomfortable in computer science, thus I am quite influenced by this research.  &lt;/p&gt;
+
+&lt;p&gt;= Some extra thoughts = &lt;/p&gt;
+
+&lt;p&gt;There are some things that has been lurking on my mind and has been a concern of mine for a while. 
+These include:
+* Other underrepresented groups - I am particularly concerned around Maori and Pacifica and people from low-income households. The number of Maori and Pacifica with internet access at home is shockingly low compared to Pakeha and Internationals. “While 86 per cent of the European population had access to the internet at home in 2012, only 68 per cent of Māori people and 65 per cent of Pacific people had internet access in the home.” Link to this research
+This is a major problem of inclusivity in technology. Another problem is the shift to Bring Your Own Devices (BYOD) in schools - this makes the “haves” and “have nots” shockingly clear. I believe this area needs much more attention and concern. I hope that the recommendations I provide at the end of this project can also help people from these groups, even though I am unable to do more research on this area specifically. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The appearance of jobs - Even though there is a high demand for computer scientists - some claim it to be the area of fastest growth - and it probably is - the competition for those jobs is still tough. I think that making it sound like jobs are easy to come by makes people with lower confidence suffer more when it comes to entering the workforce. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h1 id=&quot;the-neglection-of-feminine-subjects---it-needs-to-be-recognised-that-all-of-the-other-areas-of-expertise-are-important-and-need-to-be-included-in-the-way-technology-advances-technology-is-everywhere-and-intersects-with-every-other-field---pushing-for-more-programmers-to-fill-programming-jobs-isnt-interesting-for-people-with-passions-in-other-areas-even-though-their-perspective-is-invaluable-computer-science-isnt-the-be-all-and-end-all&quot;&gt;The neglection of “feminine” subjects - It needs to be recognised that all of the other areas of expertise are important and need to be included in the way technology advances. Technology is everywhere and intersects with every other field - pushing for more programmers to fill programming jobs isn’t interesting for people with passions in other areas, even though their perspective is invaluable. Computer science isn’t the be all and end all.&lt;/h1&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I hope you enjoyed this update! &lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 +1300</pubDate>
+        <link>http://gracenolan.me/Summer-Research-Project-Update-2/</link>
+        <guid isPermaLink="true">http://gracenolan.me/Summer-Research-Project-Update-2/</guid>
+      </item>
+    
+      <item>
+        <title>Summer Research Project Update</title>
+        <description>&lt;p&gt;Hello, this is my first update of my research! &lt;/p&gt;
+
+&lt;p&gt;I am looking at research surrounding women in computer science. At the end of my summer research I plan to detail some practical steps that the university can take to become more supportive to women in CS. &lt;/p&gt;
+
+&lt;p&gt;There are several outcomes that are desirous, and if any one of those outcomes is realised then I shall deem this research project a success. &lt;/p&gt;
+
+&lt;p&gt;For example: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The number of female enrolments in the faculty increase over the next five years &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;More research on this topic is conducted at University of Waikato &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Any of the recommendations I make in the final report are considered and implemented &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Metrics are collected and used to measure progress and draw interest to the problem &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I started by reading Why are There so Few Female Computer Scientists - Ellen Spertus (1991) &lt;/p&gt;
+
+&lt;p&gt;This is an extensive overview of the challenges facing women in computer science. Even though this research was conducted a while ago, I believe it is still relevant as many of the issues discussed remain difficulties now. In another update I will highlight some of the things I have found interesting in reading this document. &lt;/p&gt;
+
+&lt;p&gt;Spertus’ dissertation is broken down into these sections: 
+* Societal Factors 
+* The Masculine Environment 
+* Gendered Language 
+* Problems with Solutions 
+* Recommendations and conclusions &lt;/p&gt;
+
+&lt;p&gt;I plan to use this as a rough template for categorising my research. I want to particularly focus on Problems with Solutions and Recommendations. &lt;/p&gt;
+
+&lt;p&gt;=== People === &lt;/p&gt;
+
+&lt;p&gt;= Female Department Staff = &lt;/p&gt;
+
+&lt;p&gt;I had a meeting with three female lecturers which was revealing of some of the difficulties and obstacles they face in the department. I got a good idea of what has been tried in the past at University of Waikato and the effects of those efforts. &lt;/p&gt;
+
+&lt;p&gt;There was a conference for women run at Waikato University for three years in a row. It was popular and it helped the women to form a strong localised support group. Unfortunately running this took a huge amount of time and effort and the organisers were soon exhausted. Although this event was beneficial to the attendees, it was an unsustainable venture. 
+- Some attendees couldn’t make it because of requirements at home 
+- Making allowance for cultural differences was complex and time consuming 
+- Organiser’s felt it that it impeded their career progress&lt;/p&gt;
+
+&lt;p&gt;There was a day-long event held at the University of Waikato where girls were gathered from local schools. They participated in various activities and talks to encourage study in STEM subjects. This event took a lot of effort and time to organise. Unfortunately this didn’t eventuate into more female enrolments in computer science. The theory for this outcome is that teachers were glad to have time away from teaching and students to be out of class and thus the event wasn’t taken seriously. This event had a high cost and no return. &lt;/p&gt;
+
+&lt;p&gt;= Me = &lt;/p&gt;
+
+&lt;p&gt;I have organised Ladies’ Lunches and I believed them to be unsuccessful. On my part I was already over committed and organising get-togethers was really beyond my capabilities at the time. The gatherings require a focus - it is awkward to turn up and sit around without a point of discussion. &lt;/p&gt;
+
+&lt;p&gt;However, I think that it would be valuable to try to organise these type of gatherings again, and some of the female students have taken an interest in running them (which is great!). It has proven to be successful at other universities (a good example is University of Canterbury where female enrolment in computer science is now around 25%) &lt;/p&gt;
+
+&lt;p&gt;Running such events also improves the student’s eligibility to apply for scholarships such as Google’s Anita Borg Scholarship and scholarships to attend Grace Hopper Celebration of Women in Computing. In research I have read so far, winning scholarships and attending conferences is a great benefit to women studying CS. It boosts their confidence, comradeship and sense of belonging in the field. &lt;/p&gt;
+
+&lt;p&gt;In my recommendations I plan to discuss ideas on how to easily host get-togethers for women in tech - I know that for them to be continued, the barrier to organising them must be low and take minimal effort and time. &lt;/p&gt;
+
+&lt;p&gt;= Tony McGregor = &lt;/p&gt;
+
+&lt;p&gt;Tony McG looks at data of students/enrolments/grades. He will be sending me information on numbers of females in classes and grade distributions. He is also currently working on a project to try and identify at-risk students. We discussed the importance of students getting help and being supported. We also discussed ideas around surveying students and having metrics in which we could track progress. &lt;/p&gt;
+
+&lt;p&gt;=== Numbers at Waikato === &lt;/p&gt;
+
+&lt;p&gt;The following graph is takes the number of graduates from BSc, BSc(TECH), BCMS, BCMS(HONS) doing computer science majors&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://gracenolan.me/images/graduates.png&quot; alt=&quot;Graduates from 2010 - 2015&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Please note that I believe the number for 2015 is from mid-year graduations, and doesn’t include the total for 2015)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Jan 2016 00:00:00 +1300</pubDate>
+        <link>http://gracenolan.me/Summer-Research-Project-Update-1/</link>
+        <guid isPermaLink="true">http://gracenolan.me/Summer-Research-Project-Update-1/</guid>
+      </item>
+    
+      <item>
         <title>Introductions</title>
         <description>&lt;p&gt;Hello! My name is Grace and I (currently) live in New Zealand. I am studying computer science at University of Waikato.&lt;/p&gt;
 
@@ -16,7 +278,7 @@
 
 &lt;p&gt;My writing style is more like a diary than formal, how-to articles. I hope that by adding this personal touch, my posts will be more interesting for you as well as me.&lt;/p&gt;
 
-&lt;p&gt;Here’s that list of things that I promised. It is of the things I am thinking of writing about:&lt;/p&gt;
+&lt;p&gt;Here’s that list of things that I promised:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The creation of the Computer Science Student Society at Waikato Uni&lt;/li&gt;

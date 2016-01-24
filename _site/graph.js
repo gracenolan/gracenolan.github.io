@@ -1,6 +1,6 @@
 
-var width = 800,
-    height = 500,
+var width = window.screen.availWidth,
+    height = window.screen.availHeight,
     root;
 
 var force = d3.layout.force()
@@ -20,13 +20,15 @@ var link = svg.selectAll(".link"),
     // I want to make the node object a group.
     // This will have a circle and icon
 
-// function updateWindow(){
-//     width = w.innerWidth || e.clientWidth || g.clientWidth;
-//     height = w.innerHeight|| e.clientHeight|| g.clientHeight;
-//
-//     svg.attr("width", width).attr("height", height);
-// }
-// window.onresize = updateWindow;
+
+// this doesn't work. In future, look here http://stackoverflow.com/questions/16265123/resize-svg-when-window-is-resized-in-d3-js
+function updateWindow(){
+    width = w.innerWidth || e.clientWidth || g.clientWidth;
+    height = w.innerHeight|| e.clientHeight|| g.clientHeight;
+
+    svg.attr("width", width).attr("height", height);
+}
+window.onresize = updateWindow;
 
 d3.json("/flare.json", function(json) {
   root = json;
