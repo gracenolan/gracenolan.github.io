@@ -11,7 +11,7 @@ permalink: /blog/
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a>
       <span class="time-to-read">
         
-        {% if post.content | number_of_words | divided_by: 230 == 0 | append:  %}
+        {% if post.content | number_of_words | divided_by: 230 == 0 %}
           {{'< 1min read'}}
         {% endif %}
         {% else %}
