@@ -15,7 +15,7 @@ permalink: /blog/
           {{'< 1min read'}}
         {% endif %}
         {% else %}
-          {{ post.content | number_of_words | divided_by: 230 | append: 'min read' }}
+          {{ post.content | number_of_words | divided_by: 230 | append: ' min read' }}
         {% endif %}
 </span></h1>
 
