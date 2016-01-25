@@ -15,6 +15,9 @@ permalink: /blog/
         {% if time == 0 %}
           {{'< 1 min read'}}
         {% endif %}
+        {% else %}
+          {{ time | append: ' min read'}}
+        {% endif %}
         
 </span></h1>
 

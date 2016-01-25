@@ -1,18 +1,21 @@
 ---
 layout: post
-title: Summer Research Project Update #2
+title: Summer Research Project Update No.2
 ---
 
-Hi all~
-
 With the help of many people, I have collected over 100 articles/papers/research documents - Woo! I am currently triaging these and putting them into categories, vetoing the ones that aren’t relevant.  
+
 In this update:
+
 * Some more data from UoW about students
+
 * My meeting with Melbourne University 
+
 * A couple of quotes I have found interesting and relevant to my research
+
 * Some thoughts on how I am doing my research: what I’m looking for; potential problems; and what my lens is. 
 
-==== UoW Data ====
+## UoW Data ##
 Tony McGregor has sent me the number of students and grades for male and female students from 2003 to 2015. 
 
 Here are some quick graphs of grade distributions from 2005, 2009 and 2015. The graphs on the left compare grade count across gender relatively, and the graphs on the right show the grade distributions with actual numbers of students. 
@@ -21,7 +24,8 @@ This data is pulled from the database that tracks enrolments. The student declar
 
 ![Grade distribution for 2015, 2009, 2005]({{ site.url }}/images/2015,2009,2005.jpg)
 
-= My Thoughts = 
+# My Thoughts # 
+
 Looking at this data, I am asking myself "How do I want to organise the data? Do I want to have a trend of number of students over the years? Do I even want to incorporate grades?" 
 
 My plan is to take the numbers of students (data from the right-side graphs) and look at the trend of numbers of students over the years. 
@@ -33,7 +37,7 @@ Advice please: should aggregate the data and look at trends now or later? At thi
 
 Side note: It would be really cool if I could get some data from other universities so we could all compare how we're doing. Maybe Emma could talk to registrars from other universities and get this information? 
 
-==== Meeting with Melbourne University ====
+## Meeting with Melbourne University ##
 I had meeting with people from Melbourne University to talk about my research and to exchange some ideas on how to tackle the gender disparity in computer science. It was wonderful to talk to them and it was insightful to discussing challenges that come with being a bigger university. 
 Here are some of the highlights: 
 
@@ -53,7 +57,7 @@ Here are some of the highlights:
 This is a way in which unconscious biases are naturally discussed.
 
 
-==== Quotes ====
+## Quotes ##
 Here are some excerpts from Why are There so Few Female Computer Scientists? By Ellen Spertus (1991) 
 
 I found this quote interesting because the issue of gender bias starts very early in life: 
@@ -70,7 +74,7 @@ The second half of the talk focuses on the specific things that they have change
 
 Here are some of the ideas I liked: 
 
-= The Imposter Panel =
+# The Imposter Panel #
 This is an event for first years where they gather successful folks who are from underrepresented groups to talk about their experiences with imposter syndrome. "This is a common feeling, but even more so in underrepresented groups."
 
 Maria gave an example of a time when she was the 'Presidential Imposter' 
@@ -104,7 +108,7 @@ One of the problems with Harvey Mudd College and other American Universities, is
 Another factor is that their first year of university is about the equivalent of our final year of high school - this means there are certain papers that every first year student must take - including a computer science course. A fair amount of effort has been put in by Harvey Mudd College to make the computer science introductory course fun - so this means that students often continue taking computer science after having exposure to it. 
 The enrolment and course structure is very different at UoW.
 
-==== How-to LitReview ====
+## How-to LitReview ##
 
 I was sent a really good paper on how to do good literature reviews. I am reading through this as a guide to plan my research. Here are some of the notes I have made while reading this: 
 
@@ -118,14 +122,18 @@ Since I am looking through a lot of research, it is helpful to me if I can organ
 
 After having a Google, I am now using Zotero to categorise my data. Zotero seems very easy to use and works in a way that I expect. It uses Google Scholar to look up metadata for research documents and it indexes the content inside the document, making it easy to search. 
 
-= Where am I looking for research? =
+# Where am I looking for research? #
 * Recommended research collected by friends and colleagues (who have more academic experience than me) 
+
 * Research recommended by the online Geek Feminism community and Systers mailing list
+
 * Google scholar for specific areas I wish to know more about 
-* ACM, and Engineering research databases 
+
+* ACM, and Engineering research databases
+
 * I am also talking to people and finding out what their experience is 
 
-= What kind of research am I looking for? =
+# What kind of research am I looking for? #
 * Recent - 2005-2015 - but will look at older research as environmental and societal changes, especially relating to marginalised groups, is slow moving
 
 * Research conducted locally. Some criticism of current research by members of the department is that most of the research on my area of interest is conducted in the US and isn’t relevant to University of Waikato. I will address the relevance of each paper I wish to focus on in my review.
@@ -136,26 +144,28 @@ After having a Google, I am now using Zotero to categorise my data. Zotero seems
 
 * I will exclude research that doesn’t fit the goals of my summer research project, ie. it doesn’t lead to forming recommendations on what the university could do to help women in technology. The research needs to be influential to me. 
 
-= Possible problems with my research project =
+# Possible problems with my research project #
 * Lack of academic support from the university 
 * Little guidance on literature quality (I am trusting literature I am recommended)
 * Trying to do too much in a small amount of time
 * I let my frustrations at misogyny/unconscious bias (The Patriarchy) negatively affect my work (ie. make assumptions based on my personal experience)
 * Conflicts of interest because I’m involving so many people? 
 
-= My Lens =
+# My Lens #
 I am of English and Irish heritage and I grew up Hamilton New Zealand. I am studying a male-dominated and male-appraised field. I am independent, strong willed and uncompromising; I am not used to cultures where women are expected to take care of the home. My current ideas on the subject are shaped by my own experience and that of what I have read and discussed with people in the same position as me. I read Unlocking the Clubhouse by Jane Margolis and Allan Fisher early on when I was investigating why I felt uncomfortable in computer science, thus I am quite influenced by this research.  
 
-= Some extra thoughts = 
+# Some extra thoughts # 
 
 There are some things that has been lurking on my mind and has been a concern of mine for a while. 
 These include:
+
 * Other underrepresented groups - I am particularly concerned around Maori and Pacifica and people from low-income households. The number of Maori and Pacifica with internet access at home is shockingly low compared to Pakeha and Internationals. "While 86 per cent of the European population had access to the internet at home in 2012, only 68 per cent of Māori people and 65 per cent of Pacific people had internet access in the home." Link to this research
 This is a major problem of inclusivity in technology. Another problem is the shift to Bring Your Own Devices (BYOD) in schools - this makes the "haves" and "have nots" shockingly clear. I believe this area needs much more attention and concern. I hope that the recommendations I provide at the end of this project can also help people from these groups, even though I am unable to do more research on this area specifically. 
 
 * The appearance of jobs - Even though there is a high demand for computer scientists - some claim it to be the area of fastest growth - and it probably is - the competition for those jobs is still tough. I think that making it sound like jobs are easy to come by makes people with lower confidence suffer more when it comes to entering the workforce. 
 
 * The neglection of "feminine" subjects - It needs to be recognised that all of the other areas of expertise are important and need to be included in the way technology advances. Technology is everywhere and intersects with every other field - pushing for more programmers to fill programming jobs isn't interesting for people with passions in other areas, even though their perspective is invaluable. Computer science isn't the be all and end all.  
-==========
+
+==
 
 I hope you enjoyed this update! 

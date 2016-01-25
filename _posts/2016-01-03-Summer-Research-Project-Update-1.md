@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer Research Project Update #1
+title: Summer Research Project Update No.1
 ---
 
 Hello, this is my first update of my research! 
@@ -35,14 +35,15 @@ Spertus’ dissertation is broken down into these sections:
 I plan to use this as a rough template for categorising my research. I want to particularly focus on Problems with Solutions and Recommendations. 
 
 
-=== People === 
+## People ## 
 
 
-= Female Department Staff = 
+# Female Department Staff # 
 
 I had a meeting with three female lecturers which was revealing of some of the difficulties and obstacles they face in the department. I got a good idea of what has been tried in the past at University of Waikato and the effects of those efforts. 
 
 There was a conference for women run at Waikato University for three years in a row. It was popular and it helped the women to form a strong localised support group. Unfortunately running this took a huge amount of time and effort and the organisers were soon exhausted. Although this event was beneficial to the attendees, it was an unsustainable venture. 
+
 - Some attendees couldn’t make it because of requirements at home 
 - Making allowance for cultural differences was complex and time consuming 
 - Organiser’s felt it that it impeded their career progress
@@ -50,7 +51,7 @@ There was a conference for women run at Waikato University for three years in a 
 There was a day-long event held at the University of Waikato where girls were gathered from local schools. They participated in various activities and talks to encourage study in STEM subjects. This event took a lot of effort and time to organise. Unfortunately this didn’t eventuate into more female enrolments in computer science. The theory for this outcome is that teachers were glad to have time away from teaching and students to be out of class and thus the event wasn’t taken seriously. This event had a high cost and no return. 
 
 
-= Me = 
+# Me # 
 
 I have organised Ladies’ Lunches and I believed them to be unsuccessful. On my part I was already over committed and organising get-togethers was really beyond my capabilities at the time. The gatherings require a focus - it is awkward to turn up and sit around without a point of discussion. 
 
@@ -61,12 +62,12 @@ Running such events also improves the student’s eligibility to apply for schol
 In my recommendations I plan to discuss ideas on how to easily host get-togethers for women in tech - I know that for them to be continued, the barrier to organising them must be low and take minimal effort and time. 
 
 
-= Tony McGregor = 
+# Tony McGregor # 
 
 Tony McG looks at data of students/enrolments/grades. He will be sending me information on numbers of females in classes and grade distributions. He is also currently working on a project to try and identify at-risk students. We discussed the importance of students getting help and being supported. We also discussed ideas around surveying students and having metrics in which we could track progress. 
 
 
-=== Numbers at Waikato === 
+## Numbers at Waikato ## 
 
 The following graph is takes the number of graduates from BSc, BSc(TECH), BCMS, BCMS(HONS) doing computer science majors
 
