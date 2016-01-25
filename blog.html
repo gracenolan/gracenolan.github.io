@@ -10,14 +10,7 @@ permalink: /blog/
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a>
       <span class="time-to-read">
-        {% assign time = post.content | number_of_words | divided_by: 230 %}
-
-        {% if time == 0 %}
-          {{'< 1 min read'}}
-        {% endif %}
-        {% else %}
-          {{ time | append: ' min read'}}
-        {% endif %}
+        {{ post.content | number_of_words | divided_by: 230 | append: ' min read'}}
         
 </span></h1>
 
