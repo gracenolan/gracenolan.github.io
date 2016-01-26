@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 16px/1.4 $helvetica;
+  font: 18px/1.4 $helvetica;
   color: $gray;
 }
 
@@ -65,7 +65,7 @@ h4 {
 }
 
 p {
-  margin: 14px 0;
+  margin: 15px 0;
 }
 
 a {
@@ -78,8 +78,8 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
+  margin: 13px 0;
+  padding-left: 26px;
 }
 
 ul {
@@ -240,13 +240,20 @@ nav {
 
 .entry{
   font-family: $lora;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
   color: $darkGray;
 
   p{
     margin-top: 0em;
     margin-bottom: 2em;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.5em;
   }
 }
 
