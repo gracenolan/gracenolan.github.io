@@ -15,7 +15,7 @@ In this update:
 
 * Some thoughts on how I am doing my research: what I’m looking for; potential problems; and what my lens is. 
 
-## UoW Data ##
+### UoW Data ###
 Tony McGregor has sent me the number of students and grades for male and female students from 2003 to 2015. 
 
 Here are some quick graphs of grade distributions from 2005, 2009 and 2015. The graphs on the left compare grade count across gender relatively, and the graphs on the right show the grade distributions with actual numbers of students. 
