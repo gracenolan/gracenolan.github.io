@@ -176,12 +176,12 @@ I hope you enjoyed this update!
 I would also like to make an amendment to my last update - I actually do have the trending data over the years. This is what it looks like. 
 
 This is the whole university:
-![Gender across the whole University 2003 - 2015]({{ site.url }}/images/amended2.png)
+![Gander in Computer Science 2003 - 2015]({{ site.url }}/images/ammend.png)
 
 It is interesting for me to see that there have been more female than male enrolments university-wide for a significant amount of time and that there seems to be little variation in this gap. 
 
 This is computer science: 
-![Gander in Computer Science 2003 - 2015]({{ site.url }}/images/ammend.png)
+![Gender across the whole University 2003 - 2015]({{ site.url }}/images/amended2.png)
 
 I wonder what happened in the years 2005 - 2008 to cause that dip in the number of students enrolled in computer science (and, less dramatically it seems, university-wide). 
 Also, the proportion of women in cs was best in 2003 and UoW hasn't been doing as well in that regard since then. 
