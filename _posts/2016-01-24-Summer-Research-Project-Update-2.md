@@ -170,7 +170,7 @@ This is a major problem of inclusivity in technology. Another problem is the shi
 
 I hope you enjoyed this update! 
 
-##Amendment##
+## Amendment ##
 **25th of Jan** 
 
 I would also like to make an amendment to my last update - I actually do have the trending data over the years. This is what it looks like. 
