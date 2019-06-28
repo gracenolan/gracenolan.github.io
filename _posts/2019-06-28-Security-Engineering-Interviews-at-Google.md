@@ -30,11 +30,11 @@ I recommend doing a lot of reading and whenever you come across a term you are u
 # Networking 
 
 OSI Model
-*  Application; layer 7 (and basically layers 5 & 6) (includes API, HTTP, etc).
-*  Transport; layer 4 (TCP/UDP).
-*  Network; layer 3 (Routing).
-*  Datalink; layer 2 (Error checking and frame synchronisation).
-*  Physical; layer 1 (bits over fibre).
+:  Application; layer 7 (and basically layers 5 & 6) (includes API, HTTP, etc).
+:  Transport; layer 4 (TCP/UDP).
+:  Network; layer 3 (Routing).
+:  Datalink; layer 2 (Error checking and frame synchronisation).
+:  Physical; layer 1 (bits over fibre).
 
 Broadcast domains and collision domains. 
 
@@ -597,6 +597,7 @@ Python
 *  Pros and cons of Python vs C, Java, etc.
 *  Understand common functions very well, be comfortable in the language.
 
+
 Data structures
 *  Dictionaries / hash tables (array of linked lists, or sometimes a BST).
 *  Arrays.
@@ -623,16 +624,16 @@ botnets
 *  How would you build ssh botnet.
 
 Password bruteforcer
-
 Scrape meta data from PDFs 
-
 Script to recover deleted items
-
 A system to store basic information about threat groups
+
+
 
 # Learning tips 
 
 [Learning How To Learn course on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is amazing and very useful. Take the full course, or read [this summary on Medium](https://medium.com/learn-love-code/learnings-from-learning-how-to-learn-19d149920dc4).
+
 
 **Track concepts - "To learn", "Revising", "Done"**
 - Any terms I couldn't easily explain went on to post-its. 
@@ -641,22 +642,28 @@ A system to store basic information about threat groups
 - I looked up terms everyday, and I practiced recalling terms and explaining them to myself every time I remembered I had these interviews coming up (frequently).
 - I carried around a notebook and wrote down terms and explanations. 
 
+
 **Target your learning**
 - Think *hard* about what specific team you are going for, what skills do they want? If you aren't sure, then ask someone who will definitely know.
+
 
 **Identify your weaknesses**
 - If you're weak on coding and you find yourself avoiding it, then spend most of your study time doing that.
 
+
 **Read**
 - Read relevant books (you don't have to read back to back).
 - When looking up things online, avoid going more than two referral links deep - this will save you from browser tab hell.
+
 
 **Mental health**
 - Take care of your basic needs first - sleep, eat well, drink water, gentle exercise. You know yourself, so do what's best for you.
 - You are more than your economic output, remember to separate your self worth from your paycheque. 
 - See interviews for what they are - they are *not* a measure of you being "good enough".
 
+
 # Interviewing tips 
+
 
 **Ask questions**
 - Questions create thirst for answers.
@@ -664,20 +671,24 @@ A system to store basic information about threat groups
 - Questions reveal how you approach problems.
 - Ask your interviewer lots of questions. They often intentionally ask questions with few details.
 
+
 **Say what you are thinking**
 - The interviewer can only make an evaluation on your suitability for the job based on the things you *say*. 
 - If you don't say your thought process aloud, then the interviewer doesn't know what you know. 
 - Practice saying everything you know about a topic, even details you think might be irrelevant. 
+
 
 **Reduce cognitive load**
 - If the infrastructure is complicated, draw up what you think it looks like. 
 - Write tests and expected output for code you write, test your code against it. 
 - Take notes about the questions so you don't forget important details.
 
+
 **Prepare**
 - Prepare questions that you want to ask your interviewers so you don't need to think of them on the spot on the day. Since an interview is also for you to know more about the workplace, I asked questions about the worst part of the job. 
 - Bring some small stacks in a box or container that isn't noisy and distracting. A little bit of sugar throughout the day can help your problem solving abilities. 
 - Stay hydrated - and take a toilet break between every interview if you need to. 
+
 
 **Do practice interviews**
 - Do them until it's comfortable and you can easily talk through problems
